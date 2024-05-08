@@ -1,0 +1,24 @@
+nav {
+    background-color: #D20C2E;
+    height: 30%;
+    box-shadow: 0px 2px 5px #D20C2E;
+}
+
+a {
+    font-family: "Josefin Sans", sans-serif;
+
+    color: white;
+}
+
+img{
+    width: 6em;
+    height: auto;
+}
+
+a:hover{
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 50px;
+}
