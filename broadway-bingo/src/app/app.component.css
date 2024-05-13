@@ -1,0 +1,36 @@
+.top{
+    text-align: center;
+    margin: 3vh;
+}
+
+.top img{
+    height: 75vh;
+    width: 85vw;
+
+}
+
+.middle{
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #DE0016;
+    color: white;
+    height: 50vh;
+}
+
+.left{
+    /* margin-left: 3vw; */
+    display: flex;
+    flex-direction: column; /* This ensures the text elements stack vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    /* text-align: center; Aligns text to the center */
+}
+
+.right {
+    display: flex;
+    flex-direction: column; /* This ensures the text elements stack vertically */
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+    text-align: center; /* Aligns text to the center */
+}
