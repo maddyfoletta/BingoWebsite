@@ -1,0 +1,10 @@
+.middle {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+}
+
+.car{
+    height: 200px;
+    width: 200px;
+}

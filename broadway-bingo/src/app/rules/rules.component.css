@@ -1,0 +1,48 @@
+.charText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #DE0016;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 3%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    /* height: 100%; */
+    /* background-image: 'assets/bingoballs.png'; */
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+img {
+    height: 10rem;
+    margin: 2rem;
+}
+
+.middle{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #DE0016;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+}
+
+.rules{
+    font-size: 3vh;
+    margin: 10px;
+}
