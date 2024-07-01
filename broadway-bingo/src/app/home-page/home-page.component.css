@@ -1,11 +1,21 @@
 .top{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
     text-align: center;
     margin: 3vh;
+
 }
 
-.top img{
+.leftimg{
+    width: 75%;
+    transform: scaleX(-1);
+    margin: 10%;
+}
+
+.logo{
     height: 75vh;
-    width: 85vw;
+    width: auto;
+
 }
 
 .middle{
