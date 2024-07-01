@@ -1,9 +1,25 @@
 .top{
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    text-align: center;
+    /* text-align: bottom; */
     margin: 3vh;
 
+}
+
+.br{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    height: 100%; /* Adjust the height as needed */
+    /* border: 1px solid black; Just for visualization */
+}
+
+.date{
+    font-size: 3vw;
+    color: red;
 }
 
 .leftimg{
