@@ -49,6 +49,7 @@
     flex-direction: column; /* This ensures the text elements stack vertically */
     justify-content: center; /* Centers vertically */
     align-items: center; /* Centers horizontally */
+    /* font-size: 1vw; */
     /* text-align: center; Aligns text to the center */
 }
 
@@ -58,6 +59,7 @@
     justify-content: center; /* Centers vertically */
     align-items: center; /* Centers horizontally */
     text-align: center; /* Aligns text to the center */
+  
 }
 
 .bottom {

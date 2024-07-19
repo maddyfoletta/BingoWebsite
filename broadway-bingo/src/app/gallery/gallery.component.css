@@ -1,7 +1,17 @@
+.bkg{
+  /* background-image: url('../assets/bingoballs.png'); */
+}
+
+
+.header{
+  text-align: center;
+  margin-top: 3vw;
+}
+
+
 .middle {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -11,8 +21,8 @@
 .fade {
     position: relative;
   /* position: absolute; */
-  width: 25%; /* Adjust as needed */
-  height: auto; /* Adjust as needed */
+  width: 25vw; /* Adjust as needed */
+  height: 70vh; /* Adjust as needed */
   transition: opacity 1s ease-in-out; /* 1s for 1 second fade time */
   opacity: 1; /* Default state */
 }
